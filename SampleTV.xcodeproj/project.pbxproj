@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F622620524A21C00009A3BBB /* FilmsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622620424A21C00009A3BBB /* FilmsService.swift */; };
+		F622620824A22CD3009A3BBB /* FilmsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622620724A22CD3009A3BBB /* FilmsCollectionViewDelegate.swift */; };
+		F622620A24A2317B009A3BBB /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622620924A2317B009A3BBB /* FilmCell.swift */; };
+		F622621024A236EA009A3BBB /* FilmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F622620F24A236EA009A3BBB /* FilmCell.xib */; };
+		F622621324A238BB009A3BBB /* TVUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F622621224A238BB009A3BBB /* TVUIKit.framework */; };
+		F622621524A24210009A3BBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622621424A24210009A3BBB /* Constants.swift */; };
+		F622621724A24D36009A3BBB /* SubsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622621624A24D36009A3BBB /* SubsService.swift */; };
+		F622621B24A25306009A3BBB /* SubsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622621A24A25306009A3BBB /* SubsProvider.swift */; };
+		F622621E24A26998009A3BBB /* SubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622621D24A26998009A3BBB /* SubsView.swift */; };
+		F622622124A26F39009A3BBB /* Notivications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622622024A26F39009A3BBB /* Notivications.swift */; };
+		F64983B624A12A2400B02A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64983B524A12A2400B02A93 /* AppDelegate.swift */; };
+		F64983BD24A12A2500B02A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64983BC24A12A2500B02A93 /* Assets.xcassets */; };
+		F64983C024A12A2500B02A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64983BE24A12A2500B02A93 /* LaunchScreen.storyboard */; };
+		F64983CA24A12BB900B02A93 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F64983C924A12BB900B02A93 /* Kingfisher */; };
+		F64983D024A12C4000B02A93 /* WallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64983CF24A12C4000B02A93 /* WallVC.swift */; };
+		F64983D224A12D8C00B02A93 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64983D124A12D8C00B02A93 /* PlayerVC.swift */; };
+		F64983D424A12EBE00B02A93 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64983D324A12EBE00B02A93 /* Coordinator.swift */; };
+		F64983DB24A13EC000B02A93 /* ApiLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = F64983DA24A13EC000B02A93 /* ApiLibrary */; };
+		F64983DD24A13EC300B02A93 /* Cartography in Frameworks */ = {isa = PBXBuildFile; productRef = F64983DC24A13EC300B02A93 /* Cartography */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F622620424A21C00009A3BBB /* FilmsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsService.swift; sourceTree = "<group>"; };
+		F622620724A22CD3009A3BBB /* FilmsCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		F622620924A2317B009A3BBB /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		F622620F24A236EA009A3BBB /* FilmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmCell.xib; sourceTree = "<group>"; };
+		F622621224A238BB009A3BBB /* TVUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVUIKit.framework; path = System/Library/Frameworks/TVUIKit.framework; sourceTree = SDKROOT; };
+		F622621424A24210009A3BBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F622621624A24D36009A3BBB /* SubsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsService.swift; sourceTree = "<group>"; };
+		F622621A24A25306009A3BBB /* SubsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsProvider.swift; sourceTree = "<group>"; };
+		F622621D24A26998009A3BBB /* SubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsView.swift; sourceTree = "<group>"; };
+		F622622024A26F39009A3BBB /* Notivications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notivications.swift; sourceTree = "<group>"; };
+		F64983B224A12A2400B02A93 /* SampleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64983B524A12A2400B02A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F64983BC24A12A2500B02A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64983BF24A12A2500B02A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64983C124A12A2500B02A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64983CF24A12C4000B02A93 /* WallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallVC.swift; sourceTree = "<group>"; };
+		F64983D124A12D8C00B02A93 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		F64983D324A12EBE00B02A93 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F64983D524A1324500B02A93 /* Cartography */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cartography; sourceTree = "<group>"; };
+		F64983D824A1388A00B02A93 /* ApiLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApiLibrary; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64983AF24A12A2400B02A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64983CA24A12BB900B02A93 /* Kingfisher in Frameworks */,
+				F622621324A238BB009A3BBB /* TVUIKit.framework in Frameworks */,
+				F64983DD24A13EC300B02A93 /* Cartography in Frameworks */,
+				F64983DB24A13EC000B02A93 /* ApiLibrary in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F622620324A21BEC009A3BBB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F622620424A21C00009A3BBB /* FilmsService.swift */,
+				F622621624A24D36009A3BBB /* SubsService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F622620624A22CBE009A3BBB /* WallVC */ = {
+			isa = PBXGroup;
+			children = (
+				F64983CF24A12C4000B02A93 /* WallVC.swift */,
+				F622620724A22CD3009A3BBB /* FilmsCollectionViewDelegate.swift */,
+				F622621124A237C2009A3BBB /* Cells */,
+			);
+			path = WallVC;
+			sourceTree = "<group>";
+		};
+		F622621124A237C2009A3BBB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F622620924A2317B009A3BBB /* FilmCell.swift */,
+				F622620F24A236EA009A3BBB /* FilmCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F622621824A2527B009A3BBB /* PlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				F64983D124A12D8C00B02A93 /* PlayerVC.swift */,
+			);
+			path = PlayerVC;
+			sourceTree = "<group>";
+		};
+		F622621924A252EF009A3BBB /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F622621A24A25306009A3BBB /* SubsProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		F622621C24A26985009A3BBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F622621D24A26998009A3BBB /* SubsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F622621F24A26F20009A3BBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F622622024A26F39009A3BBB /* Notivications.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F64983A924A12A2400B02A93 = {
+			isa = PBXGroup;
+			children = (
+				F64983D824A1388A00B02A93 /* ApiLibrary */,
+				F64983D524A1324500B02A93 /* Cartography */,
+				F64983B424A12A2400B02A93 /* SampleTV */,
+				F64983B324A12A2400B02A93 /* Products */,
+				F64983D924A13EC000B02A93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F64983B324A12A2400B02A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64983B224A12A2400B02A93 /* SampleTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64983B424A12A2400B02A93 /* SampleTV */ = {
+			isa = PBXGroup;
+			children = (
+				F64983B524A12A2400B02A93 /* AppDelegate.swift */,
+				F64983D324A12EBE00B02A93 /* Coordinator.swift */,
+				F622621424A24210009A3BBB /* Constants.swift */,
+				F622621F24A26F20009A3BBB /* Extensions */,
+				F622621C24A26985009A3BBB /* Views */,
+				F622621924A252EF009A3BBB /* Providers */,
+				F622620324A21BEC009A3BBB /* Protocols */,
+				F64983CE24A12C2800B02A93 /* ViewController */,
+				F64983BC24A12A2500B02A93 /* Assets.xcassets */,
+				F64983BE24A12A2500B02A93 /* LaunchScreen.storyboard */,
+				F64983C124A12A2500B02A93 /* Info.plist */,
+			);
+			path = SampleTV;
+			sourceTree = "<group>";
+		};
+		F64983CE24A12C2800B02A93 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F622620624A22CBE009A3BBB /* WallVC */,
+				F622621824A2527B009A3BBB /* PlayerVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F64983D924A13EC000B02A93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F622621224A238BB009A3BBB /* TVUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64983B124A12A2400B02A93 /* SampleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64983C424A12A2500B02A93 /* Build configuration list for PBXNativeTarget "SampleTV" */;
+			buildPhases = (
+				F64983AE24A12A2400B02A93 /* Sources */,
+				F64983AF24A12A2400B02A93 /* Frameworks */,
+				F64983B024A12A2400B02A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTV;
+			packageProductDependencies = (
+				F64983C924A12BB900B02A93 /* Kingfisher */,
+				F64983DA24A13EC000B02A93 /* ApiLibrary */,
+				F64983DC24A13EC300B02A93 /* Cartography */,
+			);
+			productName = SampleTV;
+			productReference = F64983B224A12A2400B02A93 /* SampleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64983AA24A12A2400B02A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Stanislav Belsky";
+				TargetAttributes = {
+					F64983B124A12A2400B02A93 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F64983AD24A12A2400B02A93 /* Build configuration list for PBXProject "SampleTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F64983A924A12A2400B02A93;
+			packageReferences = (
+				F64983C824A12BB900B02A93 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F64983B324A12A2400B02A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64983B124A12A2400B02A93 /* SampleTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64983B024A12A2400B02A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64983C024A12A2500B02A93 /* LaunchScreen.storyboard in Resources */,
+				F622621024A236EA009A3BBB /* FilmCell.xib in Resources */,
+				F64983BD24A12A2500B02A93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64983AE24A12A2400B02A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F622621724A24D36009A3BBB /* SubsService.swift in Sources */,
+				F622620524A21C00009A3BBB /* FilmsService.swift in Sources */,
+				F622620A24A2317B009A3BBB /* FilmCell.swift in Sources */,
+				F64983D424A12EBE00B02A93 /* Coordinator.swift in Sources */,
+				F622622124A26F39009A3BBB /* Notivications.swift in Sources */,
+				F622621E24A26998009A3BBB /* SubsView.swift in Sources */,
+				F64983D024A12C4000B02A93 /* WallVC.swift in Sources */,
+				F622621B24A25306009A3BBB /* SubsProvider.swift in Sources */,
+				F64983B624A12A2400B02A93 /* AppDelegate.swift in Sources */,
+				F622620824A22CD3009A3BBB /* FilmsCollectionViewDelegate.swift in Sources */,
+				F64983D224A12D8C00B02A93 /* PlayerVC.swift in Sources */,
+				F622621524A24210009A3BBB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F64983BE24A12A2500B02A93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64983BF24A12A2500B02A93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64983C224A12A2500B02A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		F64983C324A12A2500B02A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64983C524A12A2500B02A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = SampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.overinet.SampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.3;
+			};
+			name = Debug;
+		};
+		F64983C624A12A2500B02A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = SampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.overinet.SampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64983AD24A12A2400B02A93 /* Build configuration list for PBXProject "SampleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64983C224A12A2500B02A93 /* Debug */,
+				F64983C324A12A2500B02A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64983C424A12A2500B02A93 /* Build configuration list for PBXNativeTarget "SampleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64983C524A12A2500B02A93 /* Debug */,
+				F64983C624A12A2500B02A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F64983C824A12BB900B02A93 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F64983C924A12BB900B02A93 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F64983C824A12BB900B02A93 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F64983DA24A13EC000B02A93 /* ApiLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ApiLibrary;
+		};
+		F64983DC24A13EC300B02A93 /* Cartography */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Cartography;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F64983AA24A12A2400B02A93 /* Project object */;
+}
